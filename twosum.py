@@ -5,4 +5,6 @@ for i in l:
             if i==k:
              continue
             else:
-                print(i,k) 
+                b={i,k}
+                if b==b:
+                    print(b)
