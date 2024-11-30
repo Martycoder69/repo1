@@ -1,0 +1,30 @@
+print("1. write")
+print("2. view")
+print("3. delete")
+choice=int(input("enter the choice:"))
+if choice==1:
+    ar=input("enter the rollno. of student:")
+    an=input("enter the name of student:")
+    ag=input("enter the age of student:")
+    ap=input("enter the phonenumber of student:")
+    ad=input("enter the address of student:")
+
+    f = open("student detail.txt","w")
+    f.write("Student Detail.")
+    f.write("\nrollnumber of the student:")
+    f.write(ar)
+    f.write("\n""name of the student:")
+    f.write(an)
+    f.write("\nage of the student:")
+    f.write(ag)
+    f.write("\nphonenumber of the student:")
+    f.write(ap)
+    f.write("\naddress of the student:")
+    f.write(ad)
+    f.close()
+elif choice==2:
+    f=open("student detail.txt","r")
+    print(f.read())
+elif choice==3:
+    import os
+    os.remove("student detail.txt")
