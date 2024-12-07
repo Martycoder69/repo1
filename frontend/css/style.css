@@ -1,0 +1,26 @@
+td{
+    color: rgb(3, 110, 73);
+}
+body{
+    background-color:beige;
+}
+input{
+    background-color: lightpink;
+    border-color: blueviolet;
+}
+#qua{
+    color:brown;
+    background-color: aquamarine;
+}
+.tarea{
+    background-color: bisque;
+    border-style:groove;
+}
+thead,tbody{
+    color:  rgb(255, 0, 0);
+}
+.div{
+    background-color: chartreuse;
+    width: 100%;
+    height: 100px;
+}
