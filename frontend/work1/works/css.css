@@ -1,0 +1,12 @@
+img{
+    height: 500px;
+    position: relative;
+    width: 100%;
+}
+.main{
+    margin: auto;
+    width: 80%;
+}
+.inner{
+    position: absolute;
+}
