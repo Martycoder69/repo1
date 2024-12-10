@@ -1,6 +1,6 @@
 img{
     height: 500px;
-    position: relative;
+    position: fit;
     width: 100%;
 }
 .main{
@@ -8,5 +8,38 @@ img{
     width: 80%;
 }
 .inner{
+    font-size: 30px;
     position: absolute;
+    color: rgb(230, 255, 255);
+    top: 8cm;
+    left: 6cm;
+    right: 10cm;
+}
+button{
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 151, 110);
+    opacity: .3;
+}
+button:hover{
+opacity: 1;
+font-size: 31px;
+border-radius: 30px;
+}
+p::before{
+    color: #ff0000;
+    content:"hi ";
+}
+img{
+    width: 1000px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+a{
+    display: block;
+}
+.text span{
+    vertical-align: super;
+    text-decoration: line-through;
 }
