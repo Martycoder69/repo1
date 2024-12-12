@@ -1,6 +1,5 @@
 .header{
-    width: 100%;
-    /* height: 300px; */
+    width: 1383px;
     background-color: aqua;
     padding: 60px;
 }
@@ -18,4 +17,32 @@ text-align: center;
 ul{
     margin: 0px;
     display: flex;
+}
+p1{
+    background-color: blueviolet;
+    padding: 14px 20px;
+    font-size: larger;
+}
+p1:hover{
+    background-color: chartreuse;
+    color:black;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.leftside{
+    flex: 30%;
+    background-color: aqua;
+    padding: 20px;
+}
+.rightside{
+    flex: 70%;
+    background-color: rgb(0, 255, 17);
+    padding: 20px;
+}
+.img{
+width: 100%;
+height: 100px;
 }
