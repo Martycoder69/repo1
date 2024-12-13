@@ -1,5 +1,5 @@
 .header{
-    width: 1383px;
+    width: 100%;
     background-color: aqua;
     padding: 60px;
 }
@@ -28,21 +28,63 @@ p1:hover{
     color:black;
     
 }
-.row{
+.body{
     display: flex;
-    flex-wrap: wrap;
 }
 .leftside{
     flex: 30%;
-    background-color: aqua;
+    background-color:rgb(105, 131, 105);
     padding: 20px;
 }
 .rightside{
     flex: 70%;
-    background-color: rgb(0, 255, 17);
+    background-color:rgb(106, 101, 141);
     padding: 20px;
 }
 .img{
 width: 100%;
-height: 100px;
+height: 300px;
+background-color: rgb(206, 170, 170);
+}
+.img1{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(206, 170, 170);
+    margin: 20px;
+    margin-left: 0px;
+}
+.img2{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(206, 170, 170);
+    margin: 20px;
+    margin-left: 0px;
+}
+.img3{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(206, 170, 170);
+    margin: 20px;
+    margin-left: 0px;
+}
+.img4{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(206, 170, 170);
+
+}
+.img5{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(206, 170, 170);
+    
+}
+.footer{
+    background-color: darkslategrey;
+    text-align: center;
+    
+}
+.footer h1{
+    margin: 0px;
+    padding: 30px;
 }
