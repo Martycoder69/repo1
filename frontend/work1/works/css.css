@@ -65,3 +65,11 @@ a{
 .div3{
     background-color: cadetblue;
 }
+.divs{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px 100px;
+    /* gap: 10px; */
+    row-gap: 10px;
+    column-gap: 20px;
+}
