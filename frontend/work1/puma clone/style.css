@@ -1,0 +1,30 @@
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: aqua;
+}
+.nav h3{
+    float: left;
+    padding: 6px;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    background-color: aquamarine;
+    margin-bottom: 28px;
+}
+.banner1{
+    width: 100%;
+    height: 600px;
+    background-color: beige;
+    margin-bottom: 28px;
+}
+.banner2{
+    width: 100%;
+    height: 600px;
+    background-color:bisque;
+}
+.tile{
+    padding-left: 200px;
+    padding-top: 70px;
+}

@@ -1,7 +1,8 @@
 .header{
     width: 100%;
     background-color: aqua;
-    padding: 60px;
+    height: 150PX;
+    line-height: 60px;
 }
 .header h1{
 text-align: center;
@@ -18,12 +19,14 @@ ul{
     margin: 0px;
     display: flex;
 }
-p1{
+li{
+    display: block;
     background-color: blueviolet;
     padding: 14px 20px;
     font-size: larger;
+    text-decoration: none;
 }
-p1:hover{
+li:hover{
     background-color: chartreuse;
     color:black;
     
@@ -87,4 +90,16 @@ background-color: rgb(206, 170, 170);
 .footer h1{
     margin: 0px;
     padding: 30px;
+}
+@media screen and (max-width:991px){
+    .body{
+        flex-direction: column;
+    }
+   .leftside,.rightside{
+    flex: 100%;
+   }
+   .nav ul{
+    padding: 0px;
+   }
+    
 }
