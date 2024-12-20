@@ -21,6 +21,7 @@
 
 }
 .div2{
+    background-color: linear-gradient(to right,rgb(77, 77, 255),rgb(117, 119, 255),rgb(255, 66, 255),rgb(255, 186, 58));
     padding-top: 100px;
     padding-left: 150px;
 }
