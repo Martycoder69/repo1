@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+    .main{
+        animation-name: master;
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        background-color: aqua;
+        animation-duration: 2s;
+        position: relative;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        
+        animation-delay: 3s;
+        }
+        @keyframes master{
+            0%{
+                background-color: aqua;top: 0;
+            }
+            50%{
+                background-color: blueviolet;top:600px;
+            }
+            100%{
+                background-color: aqua;top: 0px;
+            }
+        }
+        .platform{
+            width: 200px;
+            height: 50px;
+            background-color: cadetblue;
+            position: relative;
+            margin-top: 700px;
+            margin-left: -150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main"></div>
+    <div class="platform"></div>
+</body>
+</html>
