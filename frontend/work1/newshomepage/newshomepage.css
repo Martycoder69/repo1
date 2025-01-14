@@ -39,6 +39,9 @@ ul{
 .new h3{
     font-size: 25px;
 }
+.new h3:hover{
+    color: #f0c575;
+}
 .new .p1{
 border-bottom: #ffffff solid 1px ;
 padding-bottom: 30px;
@@ -91,7 +94,11 @@ padding-bottom: 30px;
     height: 50px;
     margin-left: 150px;
     margin-top: -100px;
-    
+    border-radius: 10px;
+}
+.mainnews button:hover{
+    background-color: #f0c575;
+    border-color: #f0c575;
 }
 .topnews{
     display: flex;
