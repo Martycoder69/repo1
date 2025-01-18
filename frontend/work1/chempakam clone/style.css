@@ -1,6 +1,3 @@
-body{
-    display: flex;
-}
 .nav{
     width: 100%;
     height: 100px;
@@ -10,10 +7,63 @@ body{
 }
 .nav ul{
     display: flex;
+    margin-top: 30px;
+    margin-left: 400px;
 }
-.nav li{
+.nav a{
     text-decoration: none;
     color:white;
     flex-direction: row;
-    margin: 5px;
+    padding: 10px;
+    
+}
+.searchbox{
+    position: relative;
+    margin-top: 28px;
+    margin-left: 50px;
+    height: 30px;
+    width: 200px;
+}
+.nav button{
+    height: 30px;
+    width: 50px;
+    margin-top: px;
+    margin-left: 1px;
+}
+.nav i{
+    size: 100px;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    background-color: blueviolet;
+    margin-top: -60px;
+}
+.banner p{
+    color: white;
+    font-size: 60px;
+    margin-left: 600px;
+    margin-right: 900px;
+}
+.banner a{
+    margin-left: 600px;
+    margin-right: 900px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+
+}
+.categories{
+    margin-top: 70px;
+    margin-left: 300px;
+}
+.categories img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: aqua;
+    margin: 4px;
 }
